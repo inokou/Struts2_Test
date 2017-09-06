@@ -5,9 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Hello Struts2</title>
+<title>Struts2　テスト</title>
 </head>
 <body>
-   Hello World, <s:property value="name"/>
+	<h1>画面遷移成功！</h1><br/>
+	名前 <s:property value="name"/><br/><br/>
+	住所<s:property value="address"/><br/><br/>
 </body>
 </html>

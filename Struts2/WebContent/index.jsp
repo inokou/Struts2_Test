@@ -8,11 +8,12 @@
 <title>Hello Struts2</title>
 </head>
 <body>
-   <h1>Hello World From Struts2</h1>
+   <h1>Struts2 テスト</h1>
    <form action="hello">
-      <label for="name">Please enter your name</label><br/>
-      <input type="text" name="name"/>
-      <input type="submit" value="Say Hello"/>
+      <label for="name">適当に入力</label><br/>
+      名前<input type="text" name="name"/><br/><br/><br/>
+      住所<input type="text" name="address"/><br/>
+      <input type="submit" value="スタート"/>
    </form>
 </body>
 </html>
