@@ -1,5 +1,4 @@
-# Struts2_Test
+## Struts2_Test
 
-今のところ本当にテストだけ
-
+Struts2の勉強の為のリポジトリ
 
