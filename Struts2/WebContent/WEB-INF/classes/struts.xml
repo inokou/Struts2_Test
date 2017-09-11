@@ -9,7 +9,7 @@
             class="com.tutorialspoint.struts2.HelloWorldAction"
             method="execute">
             <result name="success">/HelloWorld.jsp</result>
-
+            <result name="failure">/HelloNotWorld.jsp</result>
       </action>
    </package>
 </struts>
