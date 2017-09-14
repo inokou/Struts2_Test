@@ -1,6 +1,6 @@
 package com.tutorialspoint.struts2.dto;
 
-public class NameList {
+public class NameList implements NameListInterfice {
 
 	private String name;
 	private String address;
