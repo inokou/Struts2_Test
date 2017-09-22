@@ -1,6 +1,7 @@
 package com.tutorialspoint.struts2;
 
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.tutorialspoint.struts2.chek.UserLogin;
 import com.tutorialspoint.struts2.dto.NameList;
@@ -14,13 +15,13 @@ import com.tutorialspoint.struts2.dto.NameList;
  */
 public class HelloWorldAction extends NameList {
 
-	private final org.apache.logging.log4j.Logger logger = LogManager.getLogger(HelloWorldAction.class);
+	private final Logger logger = LogManager.getLogger(HelloWorldAction.class);
 
 	public String execute() throws Exception {
 
 
-		logger.trace("TraceMessage");
-		logger.debug("DebugMessage");
+		logger.trace("ログ出力テスト＝トランク");
+		logger.debug("デバッグモード出力");
 
 
 
