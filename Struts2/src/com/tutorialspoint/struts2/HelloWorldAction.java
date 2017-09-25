@@ -2,7 +2,6 @@ package com.tutorialspoint.struts2;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import com.tutorialspoint.struts2.DataList.SanpleDataArrayList;
 import com.tutorialspoint.struts2.chek.UserLogin;
 import com.tutorialspoint.struts2.dto.NameList;
