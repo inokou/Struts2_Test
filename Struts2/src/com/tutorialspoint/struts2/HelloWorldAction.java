@@ -2,6 +2,8 @@ package com.tutorialspoint.struts2;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.tutorialspoint.struts2.DataList.DatabaseDataGet;
 import com.tutorialspoint.struts2.DataList.SanpleDataArrayList;
 import com.tutorialspoint.struts2.chek.UserLogin;
 import com.tutorialspoint.struts2.dto.NameList;
@@ -29,6 +31,11 @@ public class HelloWorldAction extends NameList {
 		logger.info(sanpleDataArrayList.getHashMapData());
 
 		UserLogin userLogin = new UserLogin();
+
+		//データベース接続
+		DatabaseDataGet databaseDataGet = new DatabaseDataGet();
+		databaseDataGet.Dataselect("pass");
+
 
 		// 入力値チェック
 		boolean adderesRet = userLogin.addressSet(this.getAddress());

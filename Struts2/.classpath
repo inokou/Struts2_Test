@@ -19,5 +19,6 @@
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="lib/postgresql-42.1.4.jre7.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
